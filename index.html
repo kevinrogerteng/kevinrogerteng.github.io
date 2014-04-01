@@ -3,41 +3,75 @@
 <head>
   <meta charset="utf-8">
   <title>Kevin Roger Teng</title>
-  <link rel ="stylesheet" type ="text/css" href="public/stylesheets/style.css">
-  <link rel ="stylesheet" type ="text/css" href="public/stylesheets/hover.css">
-  <link rel ="stylesheet" type ="text/css" href="public/stylesheets/bootstrap.css">
-  <link rel ="javascript" type ="text/css" href="public/javascript/javascript.js">
+
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+  <script src="public/javascript/javascript.js"></script>
+
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+
+  <link rel ="stylesheet" type ="text/css" href="public/stylesheets/style.css">
+
+  <link rel ="stylesheet" type ="text/css" href="public/stylesheets/hover.css">
+
+  <link rel ="stylesheet" type ="text/css" href="public/stylesheets/bootstrap.css">
+
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
 </head>
 <body>
 <!-- this is the navbar -->
     <nav class="navigation-bar">
-      <a href="#aboutme"> About </a>
-      <a href="#projects"> Projects </a>
-      <a href="#contact"> Contact Me </a>
+      <a href="#aboutme"> <i class="fa fa-male"></i> About </a>
+      <a href="#projects"> <i class="fa fa-cogs"></i> Projects </a>
+      <a href="#contact"> <i class="fa fa-phone-square"></i> Contact Me </a>
+      <a href="#home"><i class="fa fa-hand-o-up"></i></a>
     </nav>
 
-<div class="about" id="about"> 
-  <div class="justme">
+
+  <div class= "mainbackground">
+    <img class="backgroundimage" src="public/images/giftly.png"/>
+  </div>
+
+<div class="about" id="home"> 
+  <div class="justme container">
     <h1> Kevin Roger Teng </h1>
     <img class="profilepic" src="public/images/face1.png" />
-    <h2> #webdeveloper #sanfrancisco  #dork</h2> 
+    <h2> #webdeveloper #sanfrancisco  #dreamer</h2>
+    <h2> #problem-solver </h2> 
 
   </div>
 </div>
 
+<div class="aboutme container" id="aboutme">
+  <center>
+  <div class='aboutmewrite'>
+  <p> <img class="picofme" src="public/images/face1.png" align="left" /> Welcome to my kingdom!... I mean, hi there! I'm Kevin Roger Teng, you can call me Kevin for short. I'm a full stack web developer with a degree in Business Management.</p>
+  <p>Prior to being a full stack web developer, I was working as a customer support representative for three years. Everyday was routinary, which was completely fine, but being barked at for almost 40 hours in a week and making angry people happy got a bit tiring. I have then decided to change my career path and immersed myself into General Assembly's Web Development Program. </p>
+  <p>It was an amazing 12 week experience and I have developed a passion for technology. I also realized that programming is a craft, a discpline and an art. </p>
+  <p> Given my work experience and the skills I've learned in GA, I have a very good understanding of process flow and process improvement which is a addon in web development. I also have a very good grasp in debugging and providing simple solutions to complex problems.</p>
+  <p> I am currently a huge fan of Angular JS and Rails. I am working to be more in depth with the two frameworks.</p>
+  </div>
+</center>
+
+</div>
+
 <div class="background"></div>
-<div class="projects" id="projects">
+<div class="projects container" id="projects">
   THESE ARE MY PROJECTS
 </div>
 <div class="background"></div>
-<div class="aboutme" id="aboutme">
-  THIS IS MY ABOUT ME PAGE  
-</div>
 <div class="background"></div>
-<div class="background"></div>
-<div class="contact" id="contact">
-  THIS IS MY CONTACT
+<div class="contact container" id="contact">
+  <h1><strong> Feel free to contact me! </strong></h1><br>
+  <h2> Download My Resume  <i class="fa fa-download"></i> </h2>
+  <div class="contact-icons">
+    <a href="https://github.com/kevinrogerteng"><i class="fa fa-github-alt fa-4x fa-stack rotate"></i></a>
+    <a href="https://linkedin.com/in/kevinrogerteng/"><i class="fa fa-linkedin fa-4x fa-stack rotate"></i></a>
+    <a href="mailto:kevin.roger.teng@gmail.com?Subject=Hello%20Kevin!" target="_top"><i class="fa fa-envelope-o fa-4x fa-stack rotate"></i>
+  </div>
 </div>
 </div>
 </body>
