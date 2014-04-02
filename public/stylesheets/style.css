@@ -1,10 +1,11 @@
 nav{
-  background-image: url(old_map.png);
+  background-image: url(white_brick_wall.png);
   text-align: center;
   position: fixed;
   width: 100%;
   height: 60px;
   z-index: 10;
+  font-family: 'Della Respira', serif;
 }
 
 .navigation-bar a{
@@ -39,13 +40,24 @@ nav{
   color: #ee8e85;
   outline: none;
 }
+
+h1.myname {
+  font-family: 'Arbutus', cursive;
+}
+
+h2.tags{
+  font-family: 'Della Respira', serif;
+}
 div.mainbackground{
   position: fixed;
   z-index: -50;
+}
 
+h3.project-title{
+  font-family: 'Della Respira', serif;
 }
 img.backgroundimage{
-  width: 1268px;
+  width: 1300px;
 }
 
 img.profilepic {
@@ -80,8 +92,8 @@ div.about{
 
 div.aboutme {
   /*background-color: rgba(0,168,184, 0.3);*/
-  background-image: url("gray_squares.png"); 
-  padding-top: 65px;
+/*  background-image: url("gray_squares.png"); 
+*/  padding-top: 65px;
   text-align: center;
   border-radius: 5px;
 }
@@ -92,6 +104,8 @@ div.aboutmewrite{
   text-align: justify;
   margin: 5px auto;
   font-size: 20px;
+  font-family: 'Della Respira', serif;
+
 }
 
 div.justme{
@@ -116,23 +130,6 @@ div.projects{
   text-align: center;
 }
 
-div.projects3{
-  color: #000;
-  border-radius: 5px;
-  padding-top: 50px;
-  text-align: center;
-  margin-top: -240px;
-}
-
-.project3{
-  padding: 20px;
-  background-color: white;
-  width:460px;
-  display: inline-block;
-  margin: 5px;
-  border-radius: 5px;
-}
-
 img.projectimg {
   width: 350px;
   height: 200px;
@@ -140,7 +137,7 @@ img.projectimg {
 
 .project{
   padding: 20px;
-  background-color: white;
+  background-image: url(gray_squares.png);
   width: 400px;
   display: inline-block;
   margin: 5px;
@@ -156,6 +153,8 @@ img.projectimg {
 
 .description{
   text-align: justify;
+  font-family: 'Marcellus SC', serif;
+
 }
 
 div.contact {
@@ -163,6 +162,15 @@ div.contact {
   height: 700px;
   border-radius: 5px;
   text-align: center;
+  font-family: 'Della Respira', serif;
+
+}
+h1.contactme{
+  font-family: 'Della Respira', serif;
+
+}
+h2.contactme{
+  font-family: 'Della Respira', serif;
 }
 .contact-icons{
   padding: 30px;
