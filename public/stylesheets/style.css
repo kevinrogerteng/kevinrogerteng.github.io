@@ -36,7 +36,7 @@ nav{
 
 .navigation-bar a:hover,
 .navigation-bar a:focus{
-  color: white;
+  color: #ee8e85;
   outline: none;
 }
 div.mainbackground{
@@ -51,6 +51,8 @@ img.backgroundimage{
 img.profilepic {
   width: 250px;
   position: relative;
+  border-radius: 200px;
+  border: 10px solid white;
 }
 
 img.picofme {
@@ -109,9 +111,44 @@ div.aboutme h3 {
 
 div.projects{
   color: #000;
-  background: rgba(164,219,163, 0.3);
-  height: 700px;
   border-radius: 5px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+div.projects3{
+  color: #000;
+  border-radius: 5px;
+  padding-top: 50px;
+  text-align: center;
+  margin-top: -240px;
+}
+
+.project3{
+  padding: 20px;
+  background-color: white;
+  width:460px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+img.projectimg {
+  width: 350px;
+  height: 200px;
+}
+
+.project{
+  padding: 20px;
+  background-color: white;
+  width:460px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.description{
+  text-align: justify;
 }
 
 div.contact {
