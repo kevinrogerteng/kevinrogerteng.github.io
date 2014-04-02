@@ -1,5 +1,5 @@
 nav{
-  background-color: rgba(,0,0,0.3);
+  background-image: url(old_map.png);
   text-align: center;
   position: fixed;
   width: 100%;
@@ -141,10 +141,17 @@ img.projectimg {
 .project{
   padding: 20px;
   background-color: white;
-  width:460px;
+  width: 400px;
   display: inline-block;
   margin: 5px;
   border-radius: 5px;
+}
+
+.project-adjustment{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .description{
@@ -152,7 +159,6 @@ img.projectimg {
 }
 
 div.contact {
-  background: rgba(224,243,178, 0.3);
   padding-top: 100px;
   height: 700px;
   border-radius: 5px;
