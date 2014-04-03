@@ -139,6 +139,11 @@ img.projectimg {
   border-radius: 5px;
 }
 
+.project a,
+.project a:hover{
+  text-decoration: none;
+}
+
 .project-adjustment{
   position: relative;
   min-height: 1px;
