@@ -1,3 +1,7 @@
+body{
+  background-image: url(tree_bark.png);
+}
+
 nav{
   background-color: #a4dba3;
   text-align: center;
@@ -48,18 +52,10 @@ h1.myname {
 h2.tags{
   font-family: 'Della Respira', serif;
 }
-div.mainbackground{
-  position: fixed;
-  z-index: -50;
-}
 
 h3.project-title{
   font-family: 'Della Respira', serif;
 }
-img.backgroundimage{
-  width: 1300px;
-}
-
 img.profilepic {
   width: 250px;
   position: relative;
@@ -138,7 +134,6 @@ img.projectimg {
 .project{
   padding: 20px;
   background-image: url(gray_squares.png);
-  width: 400px;
   display: inline-block;
   margin: 5px;
   border-radius: 5px;
