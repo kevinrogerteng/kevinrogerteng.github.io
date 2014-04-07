@@ -37,7 +37,7 @@ nav{
 }
 .navigation-bar a:link{
   text-decoration: none;
-  }
+}
 
 .navigation-bar a:hover,
 .navigation-bar a:focus{
@@ -175,5 +175,7 @@ h2.contactme{
 .contact-icons{
   padding: 30px;
 }
+
+
 
 
