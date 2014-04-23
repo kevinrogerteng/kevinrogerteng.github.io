@@ -89,7 +89,8 @@ div.about{
 div.aboutme {
   /*background-color: rgba(0,168,184, 0.3);*/
 /*  background-image: url("gray_squares.png"); 
-*/  padding-top: 65px;
+*/ 
+  padding-top: 65px;
   text-align: center;
   border-radius: 5px;
 }
@@ -98,7 +99,7 @@ div.aboutme {
 div.aboutmewrite{
   width: 60%;
   text-align: justify;
-  margin: 5px auto;
+  margin-top: 30px;
   font-size: 20px;
   font-family: 'Della Respira', serif;
 
